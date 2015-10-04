@@ -12,8 +12,8 @@ export KERNELDIR=`readlink -f .`
 export PARENT_DIR=`readlink -f ..`
 # export USE_SEC_FIPS_MODE=true
 
-#BCONFIG=0googymax_exynos5433-trelte_defconfig
-BCONFIG=exynos5433-base_defconfig
+BCONFIG=exynos5433-googymax-trelte_defconfig
+#BCONFIG=exynos5433-base_defconfig
 
 echo "Starting Config step..."
 # export KCONFIG_NOTIMESTAMP=true
